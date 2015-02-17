@@ -1,0 +1,40 @@
+{
+  "name": "mph"
+  , "version": "0.0.1"
+  , "description": "Mph."
+  , "homepage": "https://github.com/rootslab/mph"
+  , "private": false
+  , "repository": {
+    "type": "git"
+    , "url": "git://github.com/rootslab/mph.git"
+  }
+  , "keywords": [
+    "mph"
+    , "util"
+  ]
+  , "author": {
+    "name": "Guglielmo Ferri"
+    , "email": "44gatti@gmail.com"
+  }
+  , "dependencies": {
+     "bolgia" : ">=2.7.4"
+     , "alice" : ">=0.0.10"
+     , "shashi" : ">=0.2.3"
+  },
+  "devDependencies": {
+     "dado" : ">=0.2.0"
+     , "brando" : ">=0.0.61"
+  }
+  , "main": "index"
+  , "engines": {
+    "node": ">=0.10.x"
+  }
+  , "scripts": {
+    "test": "node test/run.js"
+  }
+  , "license": "MIT"
+  , "readmeFilename": "Readme.md"
+  , "bugs": {
+    "url": "https://github.com/rootslab/mph/issues"
+  }
+}
